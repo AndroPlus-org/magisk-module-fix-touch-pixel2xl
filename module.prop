@@ -1,0 +1,7 @@
+id=fix-touch-pixel2xl
+name=Fix touch on Pixel 2 XL
+version=v01
+versionCode=1
+author=AndroPlus, showlyshah
+description=Fix touch problem on Pixel 2 XL (taimen).
+template=1400
