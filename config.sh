@@ -26,7 +26,7 @@
 AUTOMOUNT=true
 
 # Set to true if you need to load system.prop
-PROPFILE=false
+PROPFILE=true
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
@@ -42,7 +42,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "      Fix touch on Pixel 2 XL (taimen)        "
+  ui_print "      Mod for HUAWEI P20 Pro HW-01K        "
   ui_print "*******************************"
 }
 
@@ -66,7 +66,6 @@ REPLACE="
 # Construct your own list here, it will overwrite the example
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
-/system/vendor/usr/idc/touchscreen.idc
 "
 
 ##########################################################################################
